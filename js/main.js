@@ -42,7 +42,7 @@ $(document).ready(function () {
     const a = document.querySelector('.phone')
     if (a !== null) {
         if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-            a.setAttribute("href", "tel:+79507000028")
+            a.setAttribute("href", "tel:89507000028")
         } else {
             a.setAttribute("href", "contacts.html")
         }
