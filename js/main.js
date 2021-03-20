@@ -19,7 +19,7 @@ $(document).ready(function () {
     });
     $('.cat-burger').click(function () {
         $('.catalog__main').hide()
-        $('.category-burger').show()    
+        $('.category-burger').show()
     });
     $('.cat-salat').click(function () {
         $('.catalog__main').hide()
@@ -29,5 +29,13 @@ $(document).ready(function () {
         $('.catalog__main').hide()
         $('.category-hot').show()
     });
+    const burgerMenu = document.querySelector('.header__burger-menu')
+    const navMenu = document.querySelector('.header__navigation')
 
+    burgerMenu.addEventListener('click', function (e) {
+        e.preventDefault()
+        document.body.classList.toggle('_lock')
+        burgerMenu.classList.toggle('_active')
+        navMenu.classList.toggle('_active')
+    })
 });
