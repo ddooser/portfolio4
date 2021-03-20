@@ -1,0 +1,46 @@
+//out: ../css/style.css
+
+@import "vars";
+@import "reset";
+
+html {
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    color: @white;
+    background: #0a0a0a;
+}
+
+.img-fluid {
+    height: auto !important;
+}
+
+/* Blocks */
+/* MAIN */
+/* Header */
+@import "blocks/header";
+@import "blocks/nav";
+/* Intro */
+@import "blocks/intro";
+@import "blocks/title";
+@import "blocks/img";
+@import "blocks/button";
+@import "blocks/catalog";
+@import "blocks/cat_nav";
+@import "blocks/cat_main";
+/* Delivery */
+@import "blocks/delivery";
+/* Footer */
+@import "blocks/footer";
+/* CONTACTS */
+@import "blocks/contacts";

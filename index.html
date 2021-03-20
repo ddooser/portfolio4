@@ -17,13 +17,13 @@
     <header class="header sticky-top">
         <div class="container">
             <nav class="header__nav d-flex align-items-center justify-content-between">
-                <div class="col-4">
+                <div class="col-3">
                     <div class="logo">
                         <div class="restuarant__logo">
                             <a href="index.html">
                                 <picture>
                                     <source srcset="img/logo.webp">
-                                    <img src="img/logo.png" alt="logo">
+                                    <img class="img-fluid" src="img/logo.png" alt="logo">
                                 </picture>
                             </a>
                         </div>
@@ -34,12 +34,12 @@
                         <a class="nav__link" href="img/menu.pdf">Меню</a>
                     </div>
                 </div>
-                <div class="col-1">
+                <div class="col-1 offset-lg-1 offset-xl-0">
                     <div class="nav">
                         <a class="nav__link" href="about.html">О нас</a>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-2 offset-lg-1 offset-xl-0">
                     <div class="nav">
                         <a class="nav__link" href="contacts.html">Контакты</a>
                     </div>
@@ -57,8 +57,7 @@
     <section class="intro">
         <div class="container">
             <div class="intro__inner d-flex align-items-center">
-                <div class="col-1"></div>
-                <div class="col-6">
+                <div class="offset-xl-1 col-6">
                     <div class="intro__content">
                         <h1 class="intro__title">
                             Быстрая <span>доставка</span> <br>
@@ -72,8 +71,8 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-5">
-                    <div class="intro__image">
+                <div class="offset-1 offset-xl-0 col-5">
+                    <div class=" intro__image">
                         <picture>
                             <source srcset="img/intro.webp">
                             <img src="img/intro.jpg" alt="intro">
@@ -86,89 +85,83 @@
 
     <section class="catalog">
         <div class="container">
-            <div class="row d-flex">
-                <div class="col-1"></div>
-                <div class="col-2">
+            <div class="row d-flex justify-content-between">
+                <div class="offset-xl-1 offset-0 col-3 col-sm-2">
                     <div class="catalog__nav cat-rolls">
                         <a href="#" class="active">Роллы</a>
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-3 col-sm-2">
                     <div class="catalog__nav cat-pizza">
                         <a href="#">Пиццы</a>
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-3 col-sm-2">
                     <div class="catalog__nav cat-burger">
                         <a href="#">Бургеры</a>
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-3 col-sm-2">
                     <div class="catalog__nav cat-hot">
                         <a href="#">Горячие</a>
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-3 col-sm-2">
                     <div class="catalog__nav cat-salat">
                         <a href="#">Салаты</a>
                     </div>
                 </div>
             </div>
             <div class="catalog__main category-rolls text-center">
-                <div class="row">
-                    <div class="col-1"></div>
-                    <div class="col-3">
+                <div class="row d-flex justify-content-center">
+                    <div class="offset-xl-1 offset-0 col-3 col-lg-3 col-md-5">
                         <div class="catalog__col">
-                                <img src="img/california.jpg" alt="Ролл запечёная Калифорния">
+                            <img src="img/california.jpg" alt="Ролл запечёная Калифорния">
                             <h3 class="catalog__title">Запеч. Калифорния</h3>
                             <p class="catalog__text">Угорь, огурец,<br>
                                 сыр, икра тобико, рис</p>
                             <p class="catalog__cost">310руб</p>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-3 col-lg-3 col-md-4">
                         <div class="catalog__col">
-                                <img src="img/dragon.jpg" alt="Ролл Дракон">
+                            <img src="img/dragon.jpg" alt="Ролл Дракон">
                             <h3 class="catalog__title">Ролл Дракон</h3>
                             <p class="catalog__text">Лосось, угорь, сыр,<br>
                                 огурец, рис, нори, соус, кунжут</p>
                             <p class="catalog__cost">300руб</p>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-3 col-lg-3 col-md-4">
                         <div class="catalog__col">
-                                <img src="img/fila.jpg" alt="Ролл Филадельфия">
+                            <img src="img/fila.jpg" alt="Ролл Филадельфия">
                             <h3 class="catalog__title">Ролл Филадельфия</h3>
                             <p class="catalog__text">Лосось, рис, нори,<br>
                                 сыр, авокадо, огурец</p>
                             <p class="catalog__cost">270руб</p>
                         </div>
                     </div>
-                    <div class="col-1"></div>
-                </div>
-                <div class="row">
-                    <div class="col-1"></div>
-                    <div class="col-3">
+                    <div class="offset-xl-1 offset-0 col-3 col-lg-3 col-md-4">
                         <div class="catalog__col catalog__col--nm">
-                                <img src="img/temp.jpg" alt="Гункан с угрём">
+                            <img src="img/temp.jpg" alt="Гункан с угрём">
                             <h3 class="catalog__title">Гункан с угрём</h3>
                             <p class="catalog__text">Угорь,<br>
                                 соус спайси</p>
                             <p class="catalog__cost">80руб</p>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-3 col-lg-3 col-md-4">
                         <div class="catalog__col catalog__col--nm">
-                                <img src="img/california_shr.jpg" alt="Калифорния с креветкой">
+                            <img src="img/california_shr.jpg" alt="Калифорния с креветкой">
                             <h3 class="catalog__title">Калифорния с креветкой</h3>
                             <p class="catalog__text">Креветка, огурец,<br>
                                 авокадо, тобико, сыр, рис, нори</p>
                             <p class="catalog__cost">290руб</p>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-3 col-lg-3 col-md-4">
                         <div class="catalog__col catalog__col--nm">
-                                <img src="img/gun.jpg" alt="Темпура с креветкой">
+                            <img src="img/gun.jpg" alt="Темпура с креветкой">
                             <h3 class="catalog__title">Темпура с креветкой</h3>
                             <p class="catalog__text">Креветка,<br>
                                 сыр огурец, рис</p>
@@ -179,18 +172,17 @@
             </div>
 
             <div class="catalog__main category-burger text-center">
-                <div class="row">
-                    <div class="col-1"></div>
+                <div class="row d-flex justify-content-center">
                     <div class="col-3">
                         <div class="catalog__col catalog__col--nm">
-                                <img src="img/burger.jpg" alt="Бургер с говядиной">
+                            <img src="img/burger.jpg" alt="Бургер с говядиной">
                             <h3 class="catalog__title">Бургер с говядиной</h3>
                             <p class="catalog__cost">300руб</p>
                         </div>
                     </div>
                     <div class="col-3">
                         <div class="catalog__col catalog__col--nm">
-                                <img src="img/burger.jpg" alt="Фиш-бургер">
+                            <img src="img/burger.jpg" alt="Фиш-бургер">
                             <h3 class="catalog__title">Фиш-бургер</h3>
                             <p class="catalog__cost">300руб</p>
                         </div>
@@ -206,8 +198,7 @@
             </div>
 
             <div class="catalog__main category-pizza text-center">
-                <div class="row">
-                    <div class="col-1"></div>
+                <div class="row d-flex justify-content-center">
                     <div class="col-3">
                         <div class="catalog__col">
                             <img src="img/europ.jpg" alt="Пицца Европейская">
@@ -234,10 +225,6 @@
                             <p class="catalog__cost">510руб</p>
                         </div>
                     </div>
-                    <div class="col-1"></div>
-                </div>
-                <div class="row">
-                    <div class="col-1"></div>
                     <div class="col-3">
                         <div class="catalog__col catalog__col--nm">
                             <img src="img/form.jpg" alt="Кватро Формаджи">
@@ -250,7 +237,7 @@
                     </div>
                     <div class="col-3">
                         <div class="catalog__col catalog__col--nm">
-                                <img src="img/bavar.jpg" alt="Пицца Баварская">
+                            <img src="img/bavar.jpg" alt="Пицца Баварская">
                             <h3 class="catalog__title">Пицца Баварская</h3>
                             <p class="catalog__text">
                                 сыр Моцарелла, майонез, горчица, венские колбаски, сосиски, огурцы маринованные, лук
@@ -262,11 +249,10 @@
             </div>
 
             <div class="catalog__main category-salat text-center">
-                <div class="row">
-                    <div class="col-1"></div>
+                <div class="row d-flex justify-content-center">
                     <div class="col-3">
                         <div class="catalog__col">
-                                <img src="img/isp.JPG" alt="Салат Испанский">
+                            <img src="img/isp.JPG" alt="Салат Испанский">
                             <h3 class="catalog__title">Салат Испанский</h3>
                             <p class="catalog__text">Говядина отверная, лук репчатый маринованный, огурец свежий, морковь по-корейски, майонез, зелень</p>
                             <p class="catalog__cost">220руб</p>
@@ -274,7 +260,7 @@
                     </div>
                     <div class="col-3">
                         <div class="catalog__col">
-                                <img src="img/cezar.JPG" alt="Цезарь с креветками">
+                            <img src="img/cezar.JPG" alt="Цезарь с креветками">
                             <h3 class="catalog__title">Цезарь с креветками</h3>
                             <p class="catalog__text">Салат «Айсберг», гренки, сыр «Пармезан», помидоры черри, соус «Цезарь», тигровые креветки</p>
                             <p class="catalog__cost">340руб</p>
@@ -282,19 +268,15 @@
                     </div>
                     <div class="col-3">
                         <div class="catalog__col">
-                                <img src="img/gnezd.jpg" alt="Салат Гнездо">
+                            <img src="img/gnezd.jpg" alt="Салат Гнездо">
                             <h3 class="catalog__title">Салат Гнездо</h3>
                             <p class="catalog__text">Яйцо, куриная грудка, грибы, картофель пай, майонез, огурец</p>
                             <p class="catalog__cost">200руб</p>
                         </div>
                     </div>
-                    <div class="col-1"></div>
-                </div>
-                <div class="row">
-                    <div class="col-1"></div>
                     <div class="col-3">
                         <div class="catalog__col catalog__col--nm">
-                                <img src="img/ruk.JPG" alt="Руккола с креветками">
+                            <img src="img/ruk.JPG" alt="Руккола с креветками">
                             <h3 class="catalog__title">Руккола с креветками</h3>
                             <p class="catalog__text">Руккола, креветка, помидор черри, сыр «Пармезан», масло оливковое, соус «итальянские травы, гренки»</p>
                             <p class="catalog__cost">350руб</p>
@@ -302,7 +284,7 @@
                     </div>
                     <div class="col-3">
                         <div class="catalog__col catalog__col--nm">
-                                <img src="img/salat-govy.jpg" alt="Салат с говядиной">
+                            <img src="img/salat-govy.jpg" alt="Салат с говядиной">
                             <h3 class="catalog__title">Салат с говядиной</h3>
                             <p class="catalog__text">Говядина, обжаренные баклажаны и болгарский перец, чеснок, бальзамический уксус, кинза</p>
                             <p class="catalog__cost">290руб</p>
@@ -310,7 +292,7 @@
                     </div>
                     <div class="col-3">
                         <div class="catalog__col catalog__col--nm">
-                                <img src="img/grech.JPG" alt="Салат Греческий">
+                            <img src="img/grech.JPG" alt="Салат Греческий">
                             <h3 class="catalog__title">Салат Греческий</h3>
                             <p class="catalog__text">Салат «Айсберг», помидоры, перец болгарский, огурец свежий, маслины, сыр «Фета», лук красный, масло оливковое, соус бальзамический</p>
                             <p class="catalog__cost">320руб</p>
@@ -320,11 +302,10 @@
             </div>
 
             <div class="catalog__main category-hot text-center">
-                <div class="row">
-                    <div class="col-1"></div>
+                <div class="row d-flex justify-content-center">
                     <div class="col-3">
                         <div class="catalog__col">
-                                <img src="img/hac.jpg" alt="Ролл запечёная Калифорния">
+                            <img src="img/hac.jpg" alt="Ролл запечёная Калифорния">
                             <h3 class="catalog__title">Хачапури по аджарски</h3>
                             <p class="catalog__text">Лепёшка, сыр, яйцо</p>
                             <p class="catalog__cost">310руб</p>
@@ -332,7 +313,7 @@
                     </div>
                     <div class="col-3">
                         <div class="catalog__col">
-                                <img src="img/tabaka.jpg" alt="Цыплёнок табака">
+                            <img src="img/tabaka.jpg" alt="Цыплёнок табака">
                             <h3 class="catalog__title">Цыплёнок табака</h3>
                             <p class="catalog__text">Цыплёнок, лук маринованный, зелень, подается с соусом</p>
                             <p class="catalog__cost">300руб</p>
@@ -340,18 +321,14 @@
                     </div>
                     <div class="col-3">
                         <div class="catalog__col">
-                                <img src="img/sibas.jpg" alt="Рыба сибас">
+                            <img src="img/sibas.jpg" alt="Рыба сибас">
                             <h3 class="catalog__title">Рыба сибас</h3>
                             <p class="catalog__cost">550руб</p>
                         </div>
                     </div>
-                    <div class="col-1"></div>
-                </div>
-                <div class="row">
-                    <div class="col-1"></div>
                     <div class="col-3">
                         <div class="catalog__col catalog__col--nm">
-                                <img src="img/pivnoy_set.JPG" alt="Большой пивной сет">
+                            <img src="img/pivnoy_set.JPG" alt="Большой пивной сет">
                             <h3 class="catalog__title">Большой пивной сет</h3>
                             <p class="catalog__text">3 соуса, фри, наггетсы, гренки, крылья, кольца кальмара, сырные шарики, картофель «По деревенски»</p>
                             <p class="catalog__cost">750руб</p>
@@ -359,7 +336,7 @@
                     </div>
                     <div class="col-3">
                         <div class="catalog__col catalog__col--nm">
-                                <img src="img/skovorodka.JPG" alt="Сковородка">
+                            <img src="img/skovorodka.JPG" alt="Сковородка">
                             <h3 class="catalog__title">Сковородка</h3>
                             <p class="catalog__text">Мясо(по желанию), перец болгарский, картофель, фасоль стручковая, лук, майонез, сыр «Моцарелла», зелень</p>
                             <p class="catalog__cost">300руб</p>
@@ -367,7 +344,7 @@
                     </div>
                     <div class="col-3">
                         <div class="catalog__col catalog__col--nm">
-                                <img src="img/draniki.jpg" alt="Драники со шкварками">
+                            <img src="img/draniki.jpg" alt="Драники со шкварками">
                             <h3 class="catalog__title">Драники со шкварками</h3>
                             <p class="catalog__cost">180руб</p>
                         </div>
@@ -376,7 +353,7 @@
             </div>
 
             <div class="row">
-                <a class="button button--ghost d-block" href="#">
+                <a class="button button--ghost d-flex align-items-center justify-content-center" href="img/menu.pdf">
                     Посмотреть больше
                 </a>
             </div>
@@ -386,8 +363,7 @@
     <section class="delivery">
         <div class="container">
             <div class="delivery__inner d-flex align-items-center">
-                <div class="col-1"></div>
-                <div class="col-6">
+                <div class="offset-0 offset-xl-1 col-6">
                     <div class="delivery__content">
                         <h2 class="delivery__title">
                             Доставка <br>
@@ -398,14 +374,14 @@
                             Все заказы оформленные <br>
                             в другое время доставятся в эти часы
                         </h3>
-                        <a href="#" class="button">
+                        <a href="#" class="button phone">
                             Позвонить
                         </a>
                     </div>
                 </div>
-                <div class="col-5">
+                <div class="offset-1 offset-xl-0 col-5 col-lg-5">
                     <div class="delivery__image">
-                        <img src="img/delivery.jpg" alt="Доставка">
+                        <img class="img-fluid" src="img/delivery.jpg" alt="Доставка">
                     </div>
                 </div>
             </div>
@@ -414,14 +390,13 @@
 
     <footer class="footer">
         <div class="container">
-            <div class="footer__wrapper d-flex justify-content-between align-items-baseline">
-                <div class="col-1"></div>
-                <div class="col-3">
+            <div class="footer__wrapper d-flex justify-content-between align-items-center">
+                <div class="offset-xl-1 offset-lg-0 col-3">
                     <div class="footer__inner">
                         <div class="footer__logo">
                             <a href="#">
                                 <picture>
-                                    <img src="img/logo.png" alt="logo">
+                                    <img class="img-fluid" src="img/logo.png" alt="logo">
                                 </picture>
                             </a>
                         </div>
