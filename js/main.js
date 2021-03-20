@@ -38,4 +38,13 @@ $(document).ready(function () {
         burgerMenu.classList.toggle('_active')
         navMenu.classList.toggle('_active')
     })
+
+    const a = document.querySelector('.phone')
+    if (a !== null) {
+        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+            a.setAttribute("href", "tel:+7950700028")
+        } else {
+            a.setAttribute("href", "contacts.html")
+        }
+    }
 });
