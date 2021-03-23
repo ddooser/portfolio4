@@ -4,10 +4,6 @@
     margin-top: 7rem;
 }
 
-.catalog__main .row .col-3:first-child {
-    margin-right: 0;
-}
-
 .catalog__col {
     margin-bottom: 6rem;
     position: relative;
@@ -87,4 +83,26 @@
     .catalog .justify-content-between {
        justify-content: center !important;
 }
+}
+
+@media(max-width: 991px) {
+  .catalog__main .row .col-3:first-child {
+  margin-right: 0;
+}
+}
+
+@media(max-width: 768px) {
+  .catalog__main .row .col-3:first-child {
+    margin-right: 8.4rem;
+  }
+}
+
+@media(max-width: 538px) {
+    .catalog__main .row .col-3:first-child {
+    margin-right: 0;
+  }
+    .catalog__main .col-3 {
+        width: auto;
+        margin-right: 0;
+    }
 }
