@@ -414,9 +414,6 @@ body._lock {
 .catalog__main {
   margin-top: 7rem;
 }
-.catalog__main .row .col-3:first-child {
-  margin-right: 0;
-}
 .catalog__col {
   margin-bottom: 6rem;
   position: relative;
@@ -483,6 +480,11 @@ body._lock {
 @media (max-width: 576px) {
   .catalog .justify-content-between {
     justify-content: center !important;
+  }
+}
+@media (max-width: 991px) {
+  .catalog__main .row .col-3:first-child {
+    margin-right: 0;
   }
 }
 /* Delivery */
