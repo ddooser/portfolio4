@@ -65,6 +65,10 @@ body._lock {
   display: block;
   width: 100%;
 }
+.nav__list .col-3,
+.nav__list .col-4 {
+  margin-right: 2rem;
+}
 /* Telephone */
 .header__tel p {
   font-size: 0.9rem;
@@ -338,7 +342,7 @@ body._lock {
   background-color: #dbc400;
 }
 .button--ghost {
-  margin: 3.5rem auto;
+  margin: 0 auto;
   max-width: 350px;
   height: 65px;
   background-color: #0a0a0a;
@@ -410,6 +414,9 @@ body._lock {
 .catalog__main {
   margin-top: 7rem;
 }
+.catalog__main .row .col-3:first-child {
+  margin-right: 0;
+}
 .catalog__col {
   margin-bottom: 6rem;
   position: relative;
@@ -417,9 +424,6 @@ body._lock {
   height: 290px;
   background-color: #202020;
   border-radius: 50px;
-}
-.catalog__col--nm {
-  margin-bottom: 0;
 }
 .catalog__col h3 {
   display: inline-block;

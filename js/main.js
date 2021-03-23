@@ -39,12 +39,14 @@ $(document).ready(function () {
         navMenu.classList.toggle('_active')
     })
 
-    const a = document.querySelector('.phone')
-    if (a !== null) {
-        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-            a.setAttribute("href", "tel:+79507000028")
-        } else {
-            a.setAttribute("href", "contacts.html")
+    const a = document.querySelectorAll('.phone')
+    for (let i = 0; i < a.length; i++) {
+        if (a[i] !== null) {
+            if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                a[i].setAttribute("href", "tel:+79507000028")
+            } else {
+                a[i].setAttribute("href", "contacts.html")
+            }
         }
     }
 });
