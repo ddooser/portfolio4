@@ -487,6 +487,11 @@ body._lock {
     margin-right: 0;
   }
 }
+@media (max-width: 768px) {
+  .catalog__main .row .col-3:first-child {
+    margin-right: 8.4rem;
+  }
+}
 /* Delivery */
 .delivery {
   margin-top: 8.12rem;
